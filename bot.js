@@ -16,7 +16,7 @@ const len = Ab.length;
 
 
 client.on('messageDelete', msg => {
-    msg.channel.send("Bsdkwale Msg Mat del karo");
+    msg.channel.send("Msg Mat del karo");
 });
 
 
@@ -39,8 +39,8 @@ client.on('message', msg => {
     }
     else
     {   switch (msg.content) {
-        case "Baap":
-            msg.reply("Tumhare Baap hain Hum");
+        case "Bot":
+            msg.reply("super bot");
           break;
         default:
             break;
